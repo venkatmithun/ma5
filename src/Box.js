@@ -4,7 +4,7 @@ export function Box({ handleCount }) {
 
   return (
     <div
-      class={active ? "box-active box" : "box"}
+      className={active ? "box-active box" : "box"}
       onClick={() => {
         if (active) {
           handleCount(-1);
